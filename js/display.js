@@ -11,10 +11,10 @@ var outputString="";
 for(outer=0;outer<Game.length;outer++){
     for(inner=0;inner<Game[outer].length;inner++){
         if(outer==yy && inner==xx){
-            outputString+=character+"\t";
+            outputString+=character+" ";
         }
         else{
-            outputString=outputString+ Game[outer][inner]+"\t";
+            outputString=outputString+ Game[outer][inner]+" ";
         }
     }
     outputString+="\n";//   Same as outputString=outputString+'/n';

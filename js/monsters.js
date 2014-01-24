@@ -6,7 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-var monstersArray=["Troll","Kobold","Merman"];
+//var monstersArray=["Troll","Kobold","Merman"];
 
 //Trolls >Forests, Kobolds>Plains, Mermen>Water
 
@@ -17,14 +17,26 @@ function makeMonster(landType, randomNumber){
     var MermanPercentage=.3;
 
 
-    if(landType=="Forest" && randomNumber<TrollPercentage){
+    if(landType==String.fromCharCode(177)  && randomNumber<TrollPercentage){
          return 'Troll'
     } else
-    if(landType=="Plain" && randomNumber<KoboldPercentage)
+    if(landType==String.fromCharCode(178) && randomNumber<KoboldPercentage)
     { return 'Kobold'}
     else
-    if(landType=="Water" && randomNumber<MermanPercentage){ return 'Merman'}
-    else {return "";}
+    if(landType=="w" && randomNumber<MermanPercentage){ return 'Merman'}
+    else
+    if(landType=="C" && randomNumber<TrollPercentage){
+        return 'Bat'
+    } else
+    if(landType=="L" && randomNumber<KoboldPercentage)
+    { return 'Elemental'}
+    else
+    if(landType=="D" && randomNumber<MermanPercentage){ return 'Merman'}
+    else {return "Worm";}
+
+
+
+
 }
 
 //create a

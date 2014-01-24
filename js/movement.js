@@ -6,7 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 var outputString='';
-var character="<XXXX>" ;
+var character="@" ;
 var xx = 1;
 var yy=1;
 var whileCondition=true;
@@ -29,7 +29,7 @@ while(whileCondition){
     if(twoLayerWorld[currentLayer][yy][xx]=="Ladder" && promptedDirectionValue=="u"){currentLayer--;}
 //    (twoLayerWorld[currentLayer][xx][yy]=="Ladder" && promptedDirectionValue=="u")?currentLayer--:currentLayer;
 
-    if(twoLayerWorld[currentLayer][yy][xx]=="Dungeon" && promptedDirectionValue=="d"){currentLayer++;}
+    if(twoLayerWorld[currentLayer][yy][xx]==String.fromCharCode(176) && promptedDirectionValue=="d"){currentLayer++;}
 
 
 
@@ -48,7 +48,6 @@ var min=0;
 var max=1;
 
 var monster=[["Troll",10,[5,12]],["Kobold",5,[3,20]],["Merman",15,[9,35]]];
-
 //console.log(monster[troll][exp]+monster[troll][exp]+3*monster[kobold][exp]);
 //
 //console.log(Math.floor(
