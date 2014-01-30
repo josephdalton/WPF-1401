@@ -2,22 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dae1b340-235d-4631-8d7c-a09ba01f02d2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/display.js" afterPath="$PROJECT_DIR$/js/display.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/combat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/player.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/monsters.js" afterPath="$PROJECT_DIR$/js/monsters.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/movement.js" afterPath="$PROJECT_DIR$/js/movement.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/worldCreation.js" afterPath="$PROJECT_DIR$/js/worldCreation.js" />
     </list>
     <ignored path="WPF-1401.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="dae1b340-235d-4631-8d7c-a09ba01f02d2" time="1389390863060" ignored="false" />
-    <file path="/index.html" changelist="dae1b340-235d-4631-8d7c-a09ba01f02d2" time="1390433718739" ignored="false" />
+    <file path="/index.html" changelist="dae1b340-235d-4631-8d7c-a09ba01f02d2" time="1391037204422" ignored="false" />
     <file path="/Day3_2DArrays.js" changelist="dae1b340-235d-4631-8d7c-a09ba01f02d2" time="1389828798945" ignored="false" />
-    <file path="/movement.js" changelist="dae1b340-235d-4631-8d7c-a09ba01f02d2" time="1390434918069" ignored="false" />
-    <file path="/monsters.js" changelist="dae1b340-235d-4631-8d7c-a09ba01f02d2" time="1390599129934" ignored="false" />
+    <file path="/movement.js" changelist="dae1b340-235d-4631-8d7c-a09ba01f02d2" time="1391040998790" ignored="false" />
+    <file path="/monsters.js" changelist="dae1b340-235d-4631-8d7c-a09ba01f02d2" time="1391035764466" ignored="false" />
     <file path="/worldCreation.js" changelist="dae1b340-235d-4631-8d7c-a09ba01f02d2" time="1390598860229" ignored="false" />
     <file path="/display.js" changelist="dae1b340-235d-4631-8d7c-a09ba01f02d2" time="1390433660323" ignored="false" />
+    <file path="/combat.js" changelist="dae1b340-235d-4631-8d7c-a09ba01f02d2" time="1391040933364" ignored="false" />
+    <file path="/player.js" changelist="dae1b340-235d-4631-8d7c-a09ba01f02d2" time="1391040790339" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +42,20 @@
       <file leaf-file-name="movement.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/movement.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="68" selection-start="1733" selection-end="1733" vertical-scroll-proportion="0.0">
+            <state line="33" column="98" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#156#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="combat.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/combat.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="3" selection-start="718" selection-end="718" vertical-scroll-proportion="0.75418997">
+              <folding>
+                <element signature="n#!!doc;n#combat#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -62,19 +75,30 @@
       <file leaf-file-name="monsters.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/monsters.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="9" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
+            <state line="44" column="4" selection-start="1052" selection-end="1102" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="n#!!doc;n#makeMonster#0" expanded="false" />
+                <element signature="n#!!doc;n#craftMonster#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="worldCreation.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="worldCreation.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/worldCreation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="160" column="10" selection-start="3001" selection-end="3001" vertical-scroll-proportion="0.21052632">
+            <state line="187" column="28" selection-start="4034" selection-end="4035" vertical-scroll-proportion="-10.381818">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="player.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/player.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="0" selection-start="1896" selection-end="1896" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc;n#statMod#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,7 +106,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="45" selection-start="75" selection-end="75" vertical-scroll-proportion="-3.75">
+            <state line="4" column="40" selection-start="71" selection-end="71" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
@@ -109,18 +133,20 @@
         <option value="$PROJECT_DIR$/Day3_2DArrays.js" />
         <option value="$PROJECT_DIR$/js/treasure.js" />
         <option value="$PROJECT_DIR$/js/display.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/movement.js" />
-        <option value="$PROJECT_DIR$/js/monsters.js" />
         <option value="$PROJECT_DIR$/js/worldCreation.js" />
+        <option value="$PROJECT_DIR$/js/monsters.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/player.js" />
+        <option value="$PROJECT_DIR$/js/movement.js" />
+        <option value="$PROJECT_DIR$/js/combat.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
-    <option name="y" value="24" />
-    <option name="width" value="1405" />
-    <option name="height" value="860" />
+    <option name="x" value="2" />
+    <option name="y" value="22" />
+    <option name="width" value="1437" />
+    <option name="height" value="862" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -202,6 +228,13 @@
       <option name="testName" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -214,13 +247,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="24" width="1405" height="860" extended-state="0" />
+    <frame x="2" y="22" width="1437" height="862" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12011577" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11739746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299566" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -319,18 +352,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/worldCreation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="45" selection-start="75" selection-end="75" vertical-scroll-proportion="-3.75">
+        <state line="187" column="28" selection-start="4034" selection-end="4035" vertical-scroll-proportion="-10.381818">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/monsters.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="9" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
+        <state line="44" column="4" selection-start="1052" selection-end="1102" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#!!doc;n#makeMonster#0" expanded="false" />
+            <element signature="n#!!doc;n#craftMonster#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="40" selection-start="71" selection-end="71" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="0" selection-start="1896" selection-end="1896" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc;n#statMod#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -346,17 +395,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/movement.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="68" selection-start="1733" selection-end="1733" vertical-scroll-proportion="0.0">
+        <state line="33" column="98" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#156#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/worldCreation.js">
+    <entry file="file://$PROJECT_DIR$/js/combat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="10" selection-start="3001" selection-end="3001" vertical-scroll-proportion="0.21052632">
-          <folding />
+        <state line="42" column="3" selection-start="718" selection-end="718" vertical-scroll-proportion="0.75418997">
+          <folding>
+            <element signature="n#!!doc;n#combat#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
